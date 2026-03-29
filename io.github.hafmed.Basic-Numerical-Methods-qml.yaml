@@ -1,20 +1,18 @@
-    # Example Flatpak manifest for a simple Qt application
-    app-id: io.github.hafmed.Basic-Numerical-Methods-qml
-    runtime: org.kde.Platform
-    runtime-version: "6.10"
-    sdk: org.kde.Sdk
-    command: appbasic_numerical_methods_qml
-    finish-args:
-        - --share=ipc
-        - --socket=fallback-x11
-        - --socket=wayland
-        - --device=dri
-        - --device=all
-    modules:
-      - name: appbasic_numerical_methods_qml
-        buildsystem: cmake-ninja
-        sources:
-          - type: archive
-            url: https://github.com/hafmed/Basic-Numerical-Methods-qml/archive/refs/tags/v1.7.9-release2.tar.gz
-            sha256: 7b5b7fa6aefe706fe25796905d9867ca26c9b4651694f9053f83702c44f54173
- 
+app-id: io.github.hafmed.Basic-Numerical-Methods-qml
+runtime: org.kde.Platform
+runtime-version: "6.10"
+sdk: org.kde.Sdk
+command: appbasic_numerical_methods_qml
+finish-args:
+    - --share=ipc
+    - --socket=fallback-x11
+    - --socket=wayland
+    - --device=dri
+    - --device=all
+modules:
+  - name: appbasic_numerical_methods_qml
+    buildsystem: cmake-ninja
+    sources:
+      - type: archive
+        url: https://github.com/hafmed/Basic-Numerical-Methods-qml/archive/refs/tags/v1.7.9-release2.tar.gz
+        sha256: 7b5b7fa6aefe706fe25796905d9867ca26c9b4651694f9053f83702c44f54173
