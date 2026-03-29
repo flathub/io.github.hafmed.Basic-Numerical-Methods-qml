@@ -9,11 +9,12 @@
         - --socket=fallback-x11
         - --socket=wayland
         - --device=dri
+        - --device=all
     modules:
       - name: appbasic_numerical_methods_qml
         buildsystem: cmake-ninja
         sources:
           - type: archive
-            url: https://github.com/hafmed/Basic-Numerical-Methods-qml/archive/refs/tags/v1.7.7-release3.tar.gz
-            sha256: 41f46f1cc039a59908dfd0c07bf89226ec5890b58d3f8396e514856d15266f53
+            url: https://github.com/hafmed/Basic-Numerical-Methods-qml/archive/refs/tags/v1.7.9-release1.tar.gz
+            sha256: 99373ffb23c76b35ecef848a5dcfd7e8e75f21421591f5594a11e11545d88da9
  
