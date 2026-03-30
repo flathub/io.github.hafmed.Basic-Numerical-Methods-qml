@@ -13,6 +13,6 @@ modules:
     buildsystem: cmake-ninja
     sources:
       - type: archive
-        url: https://github.com/hafmed/Basic-Numerical-Methods-qml/archive/refs/tags/v1.8.0-release1.tar.gz
-        sha256: b3f61757bec2b2df59079cb2b3f9bd1b0af45a361b93ca932980bf1c8b1762fa
+        url: https://github.com/hafmed/Basic-Numerical-Methods-qml/archive/refs/tags/v1.8.0-release2.tar.gz
+        sha256: c2bf3958f898dc1b8f64ce7c85e075dd60c01a7c718fb34a159af1b3a053cc58
  
