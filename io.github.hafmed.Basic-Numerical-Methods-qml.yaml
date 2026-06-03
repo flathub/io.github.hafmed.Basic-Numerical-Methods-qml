@@ -4,10 +4,10 @@ runtime-version: "6.10"
 sdk: org.kde.Sdk
 command: appbasic_numerical_methods_qml
 finish-args:
-    - --share=ipc
-    - --socket=fallback-x11
-    - --socket=wayland
-    - --device=dri
+  - --share=ipc
+  - --socket=fallback-x11
+  - --socket=wayland
+  - --device=dri
 modules:
   - name: appbasic_numerical_methods_qml
     buildsystem: cmake-ninja
@@ -15,4 +15,4 @@ modules:
       - type: archive
         url: https://github.com/hafmed/Basic-Numerical-Methods-qml/archive/refs/tags/v1.8.7-release1.tar.gz
         sha256: 6ad7d7ef788718353c6fe9ddca59d0732ef877fbb382104245785dbb639e8cde
- 
+
