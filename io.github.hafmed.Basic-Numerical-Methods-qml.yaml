@@ -1,6 +1,6 @@
 app-id: io.github.hafmed.Basic-Numerical-Methods-qml
 runtime: org.kde.Platform
-runtime-version: "6.10"
+runtime-version: "6.11"
 sdk: org.kde.Sdk
 command: appbasic_numerical_methods_qml
 finish-args:
@@ -13,6 +13,6 @@ modules:
     buildsystem: cmake-ninja
     sources:
       - type: archive
-        url: https://github.com/hafmed/Basic-Numerical-Methods-qml/archive/refs/tags/v1.8.7-release1.tar.gz
-        sha256: 6ad7d7ef788718353c6fe9ddca59d0732ef877fbb382104245785dbb639e8cde
+        url: https://github.com/hafmed/Basic-Numerical-Methods-qml/archive/refs/tags/v1.9.1-release2.tar.gz
+        sha256: 94c43d78118f1ca432d1aeff7d4ce7e31a17122a5183bb8ca0a95cca4dec9110
 
